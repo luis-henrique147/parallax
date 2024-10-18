@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+.header {
+    background-color: rgb(78, 78, 78);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 50px 0;
+    background-image: url(https://i.pinimg.com/736x/1d/54/26/1d542616fbf89c55d6cf9d5617d62c39.jpg);
+}
+
+.header h1 {
+    font-size: 3rem;
+    margin: 3px;
+}
+
+
+.header p {
+    font-size: 1.2rem;
+    font-size: 24px;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    height: 100vh;
+    background-image: url(https://i.pinimg.com/736x/1d/54/26/1d542616fbf89c55d6cf9d5617d62c39.jpg);
+}
+
+.box {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 10px;
+    width: 60%;
+    text-align: justify;
+    background-image: url(https://i.pinimg.com/736x/29/c7/09/29c7092f506382d15e202a3167d07dc9.jpg);
+    color: #ffffff;
+    border-radius: 3%;
+
+}
+
+.footer {
+    background-color: #000000;
+    color: #f4f4f4;
+    text-align: center;
+    padding: 20px 0;
+    /* margin-top: 4px; */
+}
+
+.parallax1 {
+    background-image: url(https://i.ytimg.com/vi/ff82PsbSz2g/maxresdefault.jpg);
+
+
+}
+
+.parallax2 {
+    background-image: url(https://i.pinimg.com/736x/1c/40/df/1c40df6add2b66b94b8ddad5536b56b6.jpg);
+
+}
+
+.parallax3 {
+    background-image: url(https://confeitariavovovirginia.com.br/wp-content/uploads/2019/02/bolo-cenoura.jpg);
+}
+
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+p {
+    font-size: 20px;
+
+}
+
+li {
+    font-size: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+@media (max-width: 428px){
+  .content{
+    font-size: 60%;
+  }
+  .box{
+    width: 100%;
+    height: 70%;
+    font-size: 135%;
+  }
+  
+    body{
+         flex: 1 1 100%; 
+    } 
+
+  
+    p{
+        font-size:110%;
+    }
+
+    li{
+        
+    font-size: 135%;
+    }
+}
+
+
+@media (max-width: 390px ){
+
+    .content{
+        font-size: 60%;
+      }
+      .box{
+        width: 100%;
+        height: 90%;
+        font-size: 125%;
+      }
+      
+        body{
+             flex: 1 1 100%; 
+        } 
+    
+      
+        p{
+            font-size: 115%;
+        }
+    
+        li{
+            
+        font-size: 135%;
+        }
+}
+
+@media (max-width: 414px ){
+
+    .content{
+        font-size: 60%;
+      }
+      .box{
+        width: 100%;
+        height: 87%;
+        font-size: 140%;
+      }
+      
+        body{
+             flex: 1 1 100%; 
+        } 
+    
+      
+        p{
+            font-size: 115%;
+        }
+    
+        li{
+            
+        font-size: 135%;
+        }
+}
